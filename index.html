@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<!-- console -->
+<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
+<body>
+    <div class="calculator">
+        <input id="display" value="" type="text">
+        
+        <input onclick="ac()" type="submit" value="AC">
+        <input onclick="de()" type="submit" value="DE">
+        <input  onclick="enter('.')" type="submit" value=".">
+        <input onclick="enter('*')" type="submit" value="*">
+        
+        <input onclick="enter('7')" type="submit" value="7">
+        <input onclick="enter('8')" type="submit" value="8">
+        <input onclick="enter('9')" type="submit" value="9">
+        <input onclick="enter('-')" type="submit" value="-">
+        
+        <input onclick="enter('4')" type="submit" value="4">
+        <input onclick="enter('5')" type="submit" value="5">
+        <input onclick="enter('6')" type="submit" value="6">
+        <input onclick="enter('+')" type="submit" value="+">
+        
+        <input onclick="enter('1')" type="submit" value="1">
+        <input onclick="enter('2')" type="submit" value="2">
+        <input onclick="enter('3')" type="submit" value="3">
+        <input onclick="enter('/')" type="submit" value="÷">
+        <input onclick="ans()" class="equal" type="submit" value="=">
+        
+        <input onclick="enter('0')" type="submit" value="0">
+        <input onclick="enter('00')" type="submit" value="00">
+    </div>
+</body>
+</html>
